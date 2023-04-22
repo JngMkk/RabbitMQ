@@ -58,4 +58,4 @@ with rabbitpy.Connection(URL) as conn:
 # ! rabbitmqctl set_permissions -p / test ".*" ".*" ".*"
 
 # * Neck message requeue true
-# * 관리자 UI에 표시하기 위해 RabbitMQ를 소비할 때 메시지를 Queue에 다시 추가하도록 함.
+# * 관리자 UI에 표시하기 위해 RabbitMQ를 소비할 때 메시지를 Queue에 다시 추가하도록 함
